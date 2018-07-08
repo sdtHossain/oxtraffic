@@ -1,0 +1,188 @@
+/* GLOBAL STYLES
+-------------------------------------- */
+body {
+  font-size: 16px;
+  line-height: 1.2;
+  font-family: 'Raleway', sans-serif;
+  color: #e1e2e9;
+
+  background-color: #24272e;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+}
+
+a {
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active,
+a:visited {
+  outline: 0;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #444;
+  margin: 0;
+}
+
+ul, ol {
+  margin-bottom: 0;
+}
+
+/* removing focus from input fields */
+input:focus, textarea:focus {
+  outline: none;
+}
+
+/* TEXT Colors */
+.text-white {
+  color: #FFF;
+}
+
+.text-gradient {
+  background: linear-gradient(to right, #fbad18 0%, #ef726d 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+}
+
+.text-lg {
+  font-size: 10vw;
+  font-weight: bold;
+}
+
+/* BG Colors */
+.bg-ash {
+  background-color: #24272e
+}
+
+/* Buttons */
+.rounded-btn {
+  font-size: 20px;
+  line-height: 36px;
+  width: 214px;
+  height: 54px;
+  color: rgb(251, 170, 28);
+  background: transparent;
+  border: 2px solid #f3736f;
+  border-image-source: -moz-linear-gradient(30deg, rgb(251, 173, 24) 0%, rgb(243, 115, 111) 100%);
+  border-image-source: -webkit-linear-gradient(30deg, rgb(251, 173, 24) 0%, rgb(243, 115, 111) 100%);
+  border-image-source: -ms-linear-gradient(30deg, rgb(251, 173, 24) 0%, rgb(243, 115, 111) 100%);
+  border-image-slice: 2;
+
+  border-radius: 23px;
+  outline: 0;
+
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.btn-white,
+.btn-white:focus {
+  color: #FFF;
+  border-color: #FFF;
+}
+
+.rounded-btn:hover {
+  background-color: transparent;
+  color: #333;
+}
+
+.btn-dark {
+  color: #333;
+}
+
+.btn-dark:hover {
+  color: #FFF;
+  background-color: #333;
+}
+
+/* Hero Section
+ ------------------------------------------*/
+.hero {
+  background: url("../images/hero-bg.png") no-repeat top center/cover;
+  padding-left: 30px;
+  padding-right: 25px;
+  height: 705px;
+
+  position: relative;
+  z-index: 9999;
+}
+
+.top-header {
+  padding-top: 30px;
+}
+
+.hero-text {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.hero-text h1 {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.hero-text p {
+  font-size: 30px;
+  line-height: 44px;
+  margin-top: 8px;
+  margin-bottom: 40px;
+}
+
+/* About Us
+ -----------------------------------------------*/
+.about-us {
+  background: url("../images/about-bg.png") no-repeat top left;
+  position: relative;
+  top: -11px;
+  z-index: 999;
+  padding-top: 73px;
+  position: relative;
+}
+
+/* Who-we-are */
+.who-we-text {
+  position: relative;
+}
+
+.vector-image {
+  position: absolute;
+  z-index: -1;
+  top: -50px;
+}
+
+.who-we-are-text {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+/* Services */
+.services {
+  padding-top: 156px;
+}
+
+.service-head-left h2 {
+  color: #626773;
+  text-align: center;
+}
+
+.consulting-service {
+  font-size: 1rem;
+  padding: 12px 0 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-style: italic;
+}
