@@ -156,9 +156,13 @@ input:focus, textarea:focus {
 /* About Us
  -----------------------------------------------*/
 .about-us {
-  background: url("../images/about_bg_2.png") no-repeat top left;
+  background: url("../images/about-bg.png") no-repeat left top;
   top: -10px;
   padding-top: 66px;
+}
+
+.who-we-are-text {
+  font-size: 1.04vw;
 }
 
 .service {
@@ -166,7 +170,7 @@ input:focus, textarea:focus {
 }
 
 .service-head {
-  top: -30px;
+  top: -46px;
 }
 
 .service-head-left h2 {
@@ -184,7 +188,7 @@ input:focus, textarea:focus {
 /*!*Service Features*!*/
 .service-feature .card-title {
   font-size: 1.25vw;
-  margin-top: 17px;
+  margin-top: 16px;
   font-weight: bold;
 }
 
@@ -192,85 +196,24 @@ input:focus, textarea:focus {
   background: linear-gradient(to right, #fbad18 0%, #f3736f 100%);
   width: 62px;
   height: 2px;
+  margin-top: 20px;
+  margin-bottom: 16px;
 }
 
 .service-feature .card-box p {
   color: #808796;
 }
 
+.vector-wrapper {
+  top: 0;
+  z-index: -1;
+}
 
+.service-feature-wrap {
+  padding-left: 45px;
+  padding-right: 45px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Who-we-are */
-/*.vector-image {*/
-/*z-index: -1;*/
-/*top: -50px;*/
-/*}*/
-
-/*.who-we-are-text p {*/
-/*margin: 0;*/
-/*}*/
-
-/*.who-we-are-text {*/
-/*font-size: 1rem;*/
-/*line-height: 1.2;*/
-/*}*/
-
-/*!* Services *!*/
-/*.services {*/
-/*!*padding-top: 60px;*!*/
-/*background-color: #24272e;*/
-/*}*/
-
-/*.service-head-left h2 {*/
-/*color: #626773;*/
-/*text-align: center;*/
-/*}*/
-
-/*.consulting-service {*/
-/*font-size: 1rem;*/
-/*padding: 12px 0 10px;*/
-/*top: 50%;*/
-/*transform: translateY(-50%);*/
-/*font-style: italic;*/
-/*}*/
-
-/*!*Service Features*!*/
-/*.service-feature .card-title {*/
-/*font-size: 1.25vw;*/
-/*margin-top: 17px;*/
-/*font-weight: bold;*/
-/*}*/
-
-/*.service-feature hr {*/
-/*background: linear-gradient(to right, #fbad18 0%, #f3736f 100%);*/
-/*width: 62px;*/
-/*height: 2px;*/
-/*}*/
-
-/*.service-feature .card-box p {*/
-/*color: #808796;*/
-/*}*/
+.service-feature .card-wrapper {
+  margin: 30px 0;
+}
